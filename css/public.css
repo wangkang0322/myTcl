@@ -1,0 +1,331 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,td,hr,input,select,textarea,span,dl,dd{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	
+}
+ul li{
+	list-style: none;
+}
+/*top*/
+.top{
+	width: 100%;
+	height: 40px;
+	background: #666666;
+}
+.topList{
+	width: 1270px;
+	height: 100%;
+	/*background: greenyellow;*/
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.topList a:hover{
+	color: white;
+}
+#nav_left a{
+	display: inline-block;
+	font-size: 12px;
+	color: #cccccc;
+	line-height: 40px;
+	padding:0 22px;
+	float: left;
+}
+.nav_right{
+	position: relative;
+}
+.nav_right a{
+	display: inline-block;
+	font-size: 12px;
+	color: #cccccc;
+	line-height: 40px;
+	padding: 0 15px;
+	text-align:center;
+	float: left;
+}
+#wechat{
+	position: absolute;
+	left: -35px;
+	top: 40px;
+	width: 180px;
+	height: 200px;
+	border: 1px solid #cccccc;
+	text-align: center;
+	display: none;
+	background: white;
+	z-index: 20;
+}
+#wechat p{
+	font-size: 12px;
+	color: #666666;
+	line-height: 20px;
+}
+.nav_right span{
+	color: #cccccc;
+	font-size: 12px;
+	float: left;
+	line-height: 40px;
+}
+
+
+/*header*/
+.header{
+	width: 100%;
+	height: 100%;
+	/*background: yellowgreen;*/
+}
+.headerList{
+	width: 1270px;
+	height: 80px;
+	/*background: skyblue;*/
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.headerList .logo{
+	display: block;
+	width: 75px;
+	height: 45px;
+	background: #ff0000;
+	border-top-left-radius: 12px;
+	line-height: 45px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	margin-right: 100px;
+}
+
+.menu_left .mesOne_a{
+	display: inline-block;
+	padding: 0 17px;
+	color: #333333;
+	font-size:14px ;
+	
+}
+.menu_left .mesOne_a:hover{
+	color: #ff0000;
+}
+.menu_left{
+	display: flex;
+}
+
+.mesOne_a{
+	color: #333333;
+	font-size:14px ;
+	position: relative;
+}
+.mesTwo{
+	width: 100%;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 120px;
+	z-index: 999;
+	background: white;
+	padding-left: 170px;
+}
+.mesTwo_li{
+	display: inline-block;
+	padding: 0 30px;
+	padding-bottom: 42px;
+}
+.mesTwo_li a{
+	color: #333333;
+	font-size:12px ;
+	text-align: center;
+	line-height: 12px;
+}
+.mesTwo_li a img{
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	padding-bottom: 8px;
+}
+.mesOne_li:hover .mesTwo{
+	transition: all 2s; 
+	display: block;
+	
+}
+.p_price{
+	color: #ff7777;
+	line-height: 26px;
+}
+
+.menu_right{
+	margin-left: 56px;
+	display: flex;
+	align-items: center;
+}
+.menu_right .shu{
+	height: 21px;
+	border: 1px solid #e3e3e3;
+	margin-right: 6px;
+	float: left;
+	
+}
+.menu_right .nav_a{
+	color: #555555;
+	font-size: 14px;
+	padding: 0 12px;
+	float: left;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+#search{
+	position: relative;
+}
+#search #btn{
+	background: transparent;
+	outline: none;
+	border: 1px solid #CCCCCC;
+	width: 228px;
+	height: 34px;
+	line-height: 34px;
+	text-indent: 15px;
+	color: #999999;
+	font-size: 14px;
+}
+#search #search_img{
+	display: block;
+	position: absolute;
+	left: 190px;
+	top: 3px;
+}
+
+
+/*help*/
+.help{
+	width: 100%;
+	background:  #f0f0f0;
+	padding: 40px 0;
+	overflow: hidden;
+}
+.helpList{
+	width: 1270px;
+	/*background: aquamarine;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.dls{
+	margin-right: 112px;
+	float: left;
+}
+.dls dt{
+	color:#333333 ;
+	font-size:14px ;
+	line-height:14px;
+	font-weight: 700;
+	padding-bottom: 16px;
+}
+.dls dd a{
+	color:#999999 ;
+	font-size:14px ;
+	line-height:24px;
+}
+.dls dd a:hover{
+	text-decoration: underline;
+}
+.dlCon .phone{
+	font-size: 20px;
+	color: #ff0000;
+	line-height: 20px;
+	letter-spacing: 2px;
+	padding-bottom: 4px;
+}
+.dlCon .hour{
+	font-size: 12px;
+    color: #999;
+    line-height: 12px;
+    padding-bottom: 22px;
+}
+.dlCon a{
+	display: inline-block;
+	width: 160px;
+    height: 36px;
+    color: red;
+    font-size: 12px;
+    border: 1px solid red;
+    line-height: 36px;
+  	background: url(../img/phone.png) no-repeat 21px 10px;
+   	text-indent: 51px;
+}
+.dlCon a:hover{
+	color: white;
+	text-decoration: underline;
+	transition: all 1s;
+	background:red url(../img/phone1.png) no-repeat 21px 10px;
+}
+/*footer*/
+.footer{
+	width: 100%;
+	height:148px ;
+	background: #e3e3e3;
+}
+.footerList{
+	width: 1270px;
+	height: 148px;
+	margin: 0 auto;
+	position: relative;
+}
+.footerNav{
+	color: #666;
+	font-size: 12px;
+	padding-top: 25px;
+}
+.footerNav a{
+	color:#666666 ;
+	padding: 0 15px;
+}
+.footerNav a:nth-child(1){
+	padding-left: 0;
+}
+.footerText{
+	font-size: 12px;
+	color:#999999 ;
+	padding-top: 6px;
+}
+.footerText a{
+	color: #999999;
+}
+.footerText a:nth-child(1){
+	padding-left: 9px;
+}
+.footerDres{
+	padding-top:6px;
+}
+.footerDres a{
+	display: inline-block;
+	font-size:12px ;
+	color: #999;
+	background: url(../img/beian.png) no-repeat;
+	text-indent: 22px;
+}
+.language{
+	line-height: 29px;
+    position: absolute;
+    top: 45px;
+    right: 35px;
+    font-size:12px ;
+}
+.language a{
+	font-size:12px ;
+	color: #555555;
+	padding: 0 12px;
+}
+.footerImg{
+	text-align: center;
+	padding-top: 29px;
+}
+.footerImg .img2{
+	width: 78px;
+	height:29px ;
+}

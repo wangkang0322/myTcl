@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>TCL用户中心-注册TCL账号</title>
+		<link rel="stylesheet" type="text/css" href="css/reg.css"/>
+	</head>
+	<body>
+<!--header-->
+	<div class="header">
+		<div class="head">
+			<a href="#">
+				<img src="img/logo.png" />
+			</a>
+			<span class="logoText">TCL账号登录</span>
+		</div>
+	</div>
+<!--login-->
+	<div class="login_box">
+<!--手机注册-->
+		<div class="login_reg">
+			<h3 class="login_text">注册TCL账号</h3>
+			<form action="#" class="forms">
+				<div class="reg_pr">
+					<input type="text" id="phone" name="phoneNum" placeholder="手机号码"/>
+				</div>
+				<div class="reg_pr">
+					<input type="text" id="imgCode" placeholder="图片验证码" />
+					<span id="img_rand"></span>
+				</div>
+				<div class="reg_pr ">
+					<input type="text" id="phoneCode" placeholder="短信验证"/>
+					<span id="ver">获取验证码</span>
+				</div>
+				<div class="art">
+					<input type="checkbox" checked/>
+					<span id="art_text">已阅读并同意用户服务条款和隐私政策</span>
+				</div>
+				<div class="reg_click">
+					<input type="submit" id="reg_btn" value="注册" />
+				</div>
+				<div class="last_text">
+					<a href="#" class="sign">已有账号直接登录</a>
+					<a href="#" class="sign red">推荐第三方登录</a>
+				</div>
+			</form>
+		</div>
+<!--账号注册-->
+		<div class="J_second">
+			<h3 class="second_text">您注册的账号为：</h3>
+			<p class="pasd">请设置密码：</p>
+			<form action="#" class="second_forms">
+				<div class="second_pass">
+					<input type="password" id="pass" name="passNum" class="passw" placeholder="设置密码" />
+				</div>
+				<div class="second_pass">
+					<input type="password" id="pass_aga" class="passw" placeholder="确认密码"/>
+				</div>
+				<p class="gtext">密码由8-16位英文字母、数字或者符号组成</p>
+				<div class="second_btn">
+					<input type="submit" id="sub" value="确认提交" />
+				</div>
+			</form>
+		</div>
+<!--注册跳转-->
+		<div class="J_third">
+			<h3 class="third_text center">恭喜您注册成功！</h3>
+			<div class="img_success center">
+				<img src="img/success.png"/>
+			</div>
+			<div class="run center">
+				<p>s后自动跳转</p>
+			</div>
+			<div class="third_btn">
+				<a href="#">登录</a>
+			</div>
+		</div>
+	
+	
+	</div>
+<!--footer-->
+	<div class="footer">
+		<div class="footer_nav">
+			<a href="#">关于TCL</a>|
+			<a href="#">社会责任</a>|
+			<a href="#">投资者关系</a>|
+			<a href="#">新闻中心</a>|
+			<a href="#">经销商之家</a>
+		</div>
+		<div class="copyright">
+			<span>©2010-2016 TCL CORPORATION All Rights Reserved. </span> 
+			<a href="#">使用条款</a>
+			<span>TCL集团股份有限公司版权所有 粤ICP备05040863号</span>
+		</div>
+	</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/reg.js">
+	
+</script>

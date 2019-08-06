@@ -1,0 +1,267 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,td,hr,input,select,textarea,span,dl,dd{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+/*header*/
+.header{
+	width:100%;
+	height:85px ;
+	/*background: pink;*/
+	
+}
+.head{
+	width: 1206px;
+	height: 45px;
+	margin:0 auto;
+	padding: 20px 0 20px 0;
+}
+.head a{
+	vertical-align: top;
+}
+.head .logoText{
+	font-size: 32px;
+	color: #666666;
+	line-height: 45px;
+	vertical-align: top;
+	padding-left: 30px;
+}
+/*login*/
+.login_box{
+	width: 100%;
+	height: 480px;
+	background: url(../img/back.jpg) no-repeat center 0;
+}
+/*手机注册*/
+.login_reg{
+	width: 280px;
+	height: 378px;
+	background: white;
+	float: right;
+	border: 1px solid #ccc;
+	padding: 20px 40px 20px;
+	margin-right: 100px;
+	margin-top: 40px;
+	/*display: none;*/
+}
+.login_text{
+	font-size:18px ;
+	font-weight:100 ;
+	color:#333 ;
+	line-height: 18px;
+	margin-bottom: 26px;
+}
+.forms{
+	position: relative;
+}
+
+.reg_pr input:enabled{
+	width:280px ;
+	height: 40px;
+	border: 1px solid #999999;
+	line-height: 40px;
+	margin-bottom: 20px;
+	font-size:14px ;
+	color: #757575;
+	
+}
+#phone{
+	background: url(../img/e2.png) no-repeat 13px center;
+	text-indent: 50px;
+}
+#imgCode{
+	background: url(../img/e1.png) no-repeat 13px center;
+	text-indent: 50px;
+}
+#img_rand{
+	position: absolute;
+	right: 0;
+	top: 63px;
+	width: 85px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-left: 1px solid #cdd1d4;
+}
+#phoneCode{
+	background: url(../img/e3.png) no-repeat 13px center;
+	text-indent: 50px;
+}
+#ver{
+	display: inline-block;
+	font-size:14px ;
+	color: #ff0000;
+	position: absolute;
+	right: 0;
+	top: 125px;
+	width: 85px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-left: 1px solid #cdd1d4;
+	background: #f0f0f0;
+}
+.art{
+	margin-top: 4px;
+	margin-bottom:14px;
+	line-height: 14px;
+}
+#art_text{
+	font-size:14px ;
+	color: #666666;
+	vertical-align: top;
+}
+.reg_click input:enabled{
+	width:280px ;
+	height: 40px;
+	line-height: 40px;
+	font-size:16px ;
+	text-align: center;
+	color: white;
+	background: #ff0000;
+	border:0;
+}
+.last_text{
+	margin-top: 14px;
+	line-height: 14px;
+}
+.sign{
+	color: #333;
+	font-size: 14px;
+	float: left;
+}
+.red{
+	color: #ff0000;
+	float: right;
+}
+/*账号注册*/
+.J_second{
+	width: 280px;
+	height: 378px;
+	background: white;
+	float: right;
+	border: 1px solid #ccc;
+	padding: 20px 40px 20px;
+	margin-right: 100px;
+	margin-top: 40px;
+	display: none;
+}
+.second_text{
+	font-size:18px ;
+	font-weight:100 ;
+	color:#333 ;
+	line-height: 36px;
+	margin-bottom: 23px;
+}
+.pasd{
+	margin-bottom: 18px;
+    font-size: 14px;
+    color: #484848;
+}
+.second_pass{
+	padding-bottom: 20px;
+}
+.second_forms input:enabled{
+	width:280px ;
+	height: 38px;
+	border: 1px solid #999999;
+	line-height: 40px;
+	font-size:12px ;
+	color: #757575;
+	box-sizing: border-box;
+}
+.passw{
+	background: url(../img/e4.png) no-repeat 13px center;
+	text-indent: 50px;
+}
+.gtext{
+	color: #999;
+	font-size:14px ;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.second_btn input:enabled{
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    line-height: 40px;
+    text-align: center;
+    background: red;
+    font-size: 16px;
+}
+
+/*注册成功跳转*/
+.J_third{
+	width: 280px;
+	height: 378px;
+	background: white;
+	float: right;
+	border: 1px solid #ccc;
+	padding: 20px 40px 20px;
+	margin-right: 100px;
+	margin-top: 40px;
+	display: none;
+}
+.center{
+	text-align: center;
+}
+.third_text{
+	font-size: 18px;
+    color: #333;
+    line-height: 36px;
+    font-weight: 100;
+    margin-top: 48px;
+}
+.img_success{
+	margin: 20px 0 34px;
+}
+.run{
+	color: #666;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.third_btn{
+    width: 100%;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    background: red;
+    font-size: 16px;
+}
+.third_btn a{
+	color: #fff;
+}
+
+
+/*footer*/
+.footer{
+	width: 100%;
+	padding: 50px 0 64px; 
+}
+.footer_nav{
+	color:#666666 ;
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.footer_nav a{
+	color:#666666 ;
+	padding: 0 26px;
+}
+.copyright{
+	color:#999999 ;
+	font-size: 12px;
+	text-align: center;
+	line-height: 12px;
+}
+.copyright a{
+	color: #333333;
+}

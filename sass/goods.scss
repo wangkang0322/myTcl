@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+$basefontsize:20px;
+#box{
+    color: pink;
+    background: palegoldenrod;
+}
+h3{
+    font-size: $basefontsize+6px;
+    color: plum;
+    font-weight: 100;
+}
