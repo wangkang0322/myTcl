@@ -4,13 +4,10 @@ var img_small = $(".img_small")[0].children;
 for(var i=0;i<img_small.length;i++){
 	img_small[i].setAttribute("index",i);
 	//事件赋值
-	
 	img_small[i].onclick = function(){
 		//1、改变小图片的样式
 		for(var j=0;j<img_small.length;j++){
-			for(var j=0;j<img_small.length;j++){
 			img_small[j].style="";
-		}
 			this.style.borderColor ="red"; 
 		}
 		//2、改变大图显示和隐藏
@@ -34,15 +31,19 @@ $("#wechat_price").mouseleave( function(){
 });
 
 //优惠券
-$(".more-coupon").click(function(){
+$(".more-coupon").click(function(e){
 	$("#coupon_list")[0].style.display = "block";
-	$(".more-coupon")[0].style.display = "none"
+	$(".more-coupon")[0].style.display = "none";
+	e.stopPropagation();
 })
-$(".coupon_show > li").click(function(){
+$(".coupon_show > li").click(function(e){
 	$("#coupon_list")[0].style.display = "block";
-	$(".more-coupon")[0].style.display = "none"
+	$(".more-coupon")[0].style.display = "none";
+	e.stopPropagation();
 })
-//$("").click(function(){
-//	$("#coupon_list")[0].style.display = "none";
-//	$(".more-coupon")[0].style.display = "block"
-//})
+$(document).click(function(){
+	$("#coupon_list")[0].style.display = "none";
+	$(".more-coupon")[0].style.display = "block";
+})
+
+

@@ -19,7 +19,7 @@ ul li{
 .product_text{
 	width: 1226px;
 	height: 50px;
-	background: pink;
+	/*background: pink;*/
 	margin: 0 auto;
 	line-height: 50px;
 	color: #555;
@@ -42,6 +42,7 @@ ul li{
 }
 .purc_img{
 	width: 440px;
+	margin: 0 70px;
 }
 .img_big{
 	width: 440px;
@@ -141,10 +142,10 @@ ul li{
 }
 .render_one .old_price{
 	color: #696969;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 30px;
 	text-decoration: line-through;
-	margin-left:30px;
+	margin-left:40px;
 }
 .phone{
     font-size: 12px;
@@ -308,3 +309,65 @@ ul li{
     padding: 0 15px;
 }
 /*购物车*/
+.shoppingCar{
+	padding: 22px 0;
+	display: flex;
+}
+
+.num{
+	width: 90px;
+	height: 64px;
+	border: 1px solid #ccc;
+	display: flex;
+	margin-right: 5px;
+}
+.val{
+	width: 56px;
+	height: 64px;
+	font-size: 18px;
+	color: #666;
+	border: none;
+	line-height: 64px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.num_select{
+	width: 32px;
+	height: 64px;
+	position: relative;
+}
+.num_select .add,.num_select .reg{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	background: url(../img/iconimg.png);
+	cursor: pointer;
+}
+.num_select .add{
+	background-position:-269px -40px;
+	margin-top: 12px;
+}
+.num_select .reg{
+	background-position:-238px -42px;
+	top: 32px;
+}
+.buyId{
+	display: inline-block;
+	width:136px ;
+	height: 64px;
+	line-height: 64px;
+	text-align: center;
+	font-size: 18px;
+	border:1px solid red;
+	color: red;
+}
+#buy_one{
+	color: white;
+	background: red;
+}
+.adress{
+	color: #999;
+	font-size: 12px;
+	line-height: 26px;
+}
