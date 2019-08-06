@@ -44,4 +44,10 @@ $(document).click(function(){
 	$(".more-coupon")[0].style.display = "block";
 })
 
-
+//手机购物二维码2
+$("#qrcode_list").mouseenter( function(){
+	$("#phone_price")[0].style.display = "block";
+});
+$("#phone_price").mouseleave( function(){
+	$("#phone_price")[0].style.display = "none";
+});

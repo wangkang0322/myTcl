@@ -371,3 +371,124 @@ ul li{
 	font-size: 12px;
 	line-height: 26px;
 }
+
+/*产品介绍*/
+.pro_show{
+	width: 100%;
+	background: #f9f9f9;
+	border-top: 1px solid #e2e2e2;
+}
+.introduce{
+	width: 100%;
+	height: 76px;
+	font-size: 16px;
+	background: white;
+}
+.uls{
+	display: flex;
+	justify-content: center;
+	line-height: 76px;
+}
+.item a{
+	display: inline-block;
+	height: 100%;
+	color: #666;
+	margin:0 24px;
+}
+.item .item_one{
+	color:red;
+	border-bottom: 2px solid red;
+}
+.policy{
+	display: none;
+}
+
+.img_details{
+	width: 100%;
+	height: 76px;
+	background: pink;
+	display: flex;
+	justify-content: center;
+}
+.name{
+	padding-top: 16px;
+	 font-size: 14px;
+}
+.name span{
+	display: block;
+    line-height: 14px;
+    width: 160px;
+    margin-bottom: 9px;
+    color: #333;
+}
+.name strong{
+	color: red;
+}
+.ul_one{
+	display: flex;
+	justify-content: center;
+	line-height: 76px;
+}
+.items a{
+	display: inline-block;
+	height: 100%;
+	color: #555;
+	margin:0 10px;
+}
+.items .items_one{
+	color: red;
+	padding-left: 20px;
+}
+.img_policy{
+	display: none;
+}
+
+
+.phone_list{
+    font-size: 14px;
+    line-height: 76px;
+    padding-top: 4px;
+    margin-left: 15px;
+    position: relative;
+}
+.phone_list img{
+	vertical-align: middle;
+	margin-top: -2px;
+}
+.mobile_list{
+	color:#6c6c6c ;
+	margin-right: 10px;
+}
+.triange_list{
+	position: absolute;
+    left: 114px;
+    top: -45px;
+    width: 2px;
+    height: 23px;
+    border: 11px solid transparent;
+    border-bottom-color: white;
+    z-index: 100;
+}
+#phone_price{
+	position: absolute;
+	left: -49px;
+	top: 62px;
+	width: 130px;
+	text-align: center;
+	display: none;
+	background: white;
+	z-index: 90;
+	box-shadow: 0 0 5px rgba(0,0,0,.2);
+	padding: 20px;
+}
+#phone_price img{
+	width: 127px;
+	height: 127px;
+	display: inline-block;
+}
+#phone_price p{
+	width: 100%;
+	line-height: 16px;
+    font-size: 14px;
+    color: #666;
+}
