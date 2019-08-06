@@ -17,9 +17,7 @@ for(var i=0;i<img_small.length;i++){
 		}
 		var index = this.getAttribute("index");//this被点击的a标签
 		img_big[index].style.display = "block";
-		
 	}
-	
 }
 
 //手机购物二维码
