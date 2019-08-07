@@ -8,6 +8,26 @@
 			return document.getElementsByTagName(str);
 		}
 	}
+	//导航栏详情
+
+	var mesOne = $(".menu_left").children(".mesOne")
+	for(var i=0;i<mesOne.length;i++){
+		$(".mesOne_a").mouseenter(function(){
+			$(this).next().css("display","block");
+			$(this).parents(".mesOne").siblings().find(".mesTwo").css("display","none");
+	})
+		$(".mesTwo").mouseleave(function(){
+			$(this).css("display","none");
+	});
+		
+}
+//	for(var i=0;i<mesOne.length;i++){
+//		$(".mesOne_a").mouseleave(function(){
+//			$(this).next().css("display","none");
+//		})
+//	}
+//		
+
 	//微信二维码
 	$("#wechat_a").mouseenter(function(){
 		$("#wechat")[0].style.display = "block";

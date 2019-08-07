@@ -47,9 +47,8 @@ li{
 	margin-left:145px ;
 	margin-top: 28px;
 }
-/*.uls:hover .banner_meau_uls{
-	display: block;
-}
+
+/*banner_meau_box轮播图导航栏*/
 #banner_meau_box{
 	width: 758px;
 	background: white;
@@ -58,7 +57,7 @@ li{
 	top:120px;
 	z-index: 999;
 	border-top: 1px solid #efe7e7;
-	display: none;
+	/*display: none;*/
 }
 #banner_meau_cont{
 	width: 100%;

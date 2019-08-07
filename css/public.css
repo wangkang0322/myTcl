@@ -1,3 +1,4 @@
+
 body,h1,h2,h3,h4,h5,h6,p,ul,ol,td,hr,input,select,textarea,span,dl,dd{
 	margin: 0;
 	padding: 0;
@@ -150,11 +151,10 @@ ul li{
 	margin-left: 10px;
 	padding-bottom: 8px;
 }
-.mesOne_li:hover .mesTwo{
-	transition: all 2s; 
+/*.mesOne_li:hover .mesTwo{
 	display: block;
 	
-}
+}*/
 .p_price{
 	color: #ff7777;
 	line-height: 26px;

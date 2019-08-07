@@ -283,6 +283,10 @@ class Banner{
 //			$("#shopBox").style.display = "block"
 //		}
 //	}
+
+
+//锚点链接导航栏
+	
 	A("#shopping").onmouseover = function(event){
 		let evt = event||window.event;
 		A("#shopBox").style.display = "block";

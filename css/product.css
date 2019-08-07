@@ -31,12 +31,12 @@ ul li{
 /*product*/
 .product{
 	width: 100%;
-	background: plum;
+	/*background: plum;*/
 	border-bottom: 1px solid #f0f0f0;
 }
 .purc{
 	width: 980px;
-	background: wheat;
+	/*background: wheat;*/
 	margin: 60px auto;
 	display: flex;
 }
@@ -69,7 +69,7 @@ ul li{
 }
 .img_small{
 	height: 100px;
-	background:brown ;
+	/*background:brown ;*/
 	text-align: center;
 }
 .small_img1{
@@ -90,7 +90,7 @@ ul li{
 
 .purc_price{
 	width: 400px;
-	background: palegreen;
+	/*background: palegreen;*/
 }
 .line{
 	border-bottom: 1px solid #ccc;
@@ -119,6 +119,10 @@ ul li{
 	background: url(../img/start.png) no-repeat left center;
 	text-indent: 20px;
 	float: right;
+	cursor: pointer;
+}
+.start:hover{
+	color: red;
 }
 .jifen{
 	color: #666;
@@ -378,14 +382,14 @@ ul li{
 	background: #f9f9f9;
 	border-top: 1px solid #e2e2e2;
 }
-.introduce{
+.uls{
+/*.introduce{*/
 	width: 100%;
 	height: 76px;
 	font-size: 16px;
 	background: white;
-	/*margin-bottom: 4px;*/
-}
-.uls{
+/*}*/
+
 	display: flex;
 	justify-content: center;
 	line-height: 76px;
@@ -453,7 +457,7 @@ ul li{
 	display: none;
 }
 
-
+/*隐藏产品介绍*/
 .phone_list{
     font-size: 14px;
     line-height: 76px;
@@ -523,19 +527,31 @@ ul li{
 	background: red;
 }
 /*图片详情*/
-.imgs{
-	width: 980px;
-	margin: 0 auto;
-}
-.imgs_introduce{
+.img_box{
 	width: 834px;
-	overflow: hidden;
 	background: white;
+	margin:0 auto;
+}
+.imgs{
+	display: table;
+	margin:0 auto;
+}
+.img_box p img{
+	display: block;
+}
+#img_parameter{
+	padding-bottom: 50px;
+}
+#btn_list{
+	border-bottom: 1px solid #F0F0F0;
+}
+#evaluate{
+	width: 100%;
+	border-bottom: 1px solid #f0f0f0;
+}
+.evaluate_lit{
 	text-align: center;
-}
-.imgs_introduce .imgs_box{
-	display: inline-block;
-}
-.imgs_box p img{
-	float: left;
+	font-size: 16px;
+	margin: 120px auto;
+	color: #666;
 }
