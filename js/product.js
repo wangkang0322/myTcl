@@ -51,3 +51,29 @@ $("#qrcode_list").mouseenter( function(){
 $("#phone_price").mouseleave( function(){
 	$("#phone_price")[0].style.display = "none";
 });
+//产品介绍隐藏部分
+//$(function(){	
+//  var document_one = $(document).scrollTop();
+//  var pro_show = $('.pro_show').outerHeight();
+//  var img_details = $('.img_details').scrollTop();
+//
+//  $(window).scroll(function() {
+//      
+//
+//      if (img_details < pro_show){
+//      	$('.img_details').css({marginTop:"0",visibility:"visible"});
+//      }
+//      else {
+//      	$('.img_details').css({marginTop:"-100px",visibility:"hidden"});
+//      }
+//
+//      if (img_details < document_one){
+//      	$('.img_details').css({marginTop:"0",visibility:"visible"});
+//      }
+//      else {
+//      	$('.img_details').css({marginTop:"-100px",visibility:"hidden"});
+//      }
+//
+//      document_one = $(document).scrollTop();	
+//   });
+//});

@@ -383,6 +383,7 @@ ul li{
 	height: 76px;
 	font-size: 16px;
 	background: white;
+	/*margin-bottom: 4px;*/
 }
 .uls{
 	display: flex;
@@ -398,6 +399,7 @@ ul li{
 .item .item_one{
 	color:red;
 	border-bottom: 2px solid red;
+	height: 74px;
 }
 .policy{
 	display: none;
@@ -409,6 +411,14 @@ ul li{
 	background: pink;
 	display: flex;
 	justify-content: center;
+	visibility: hidden;
+	background-color: #FFF;
+    margin-top: -100px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 .name{
 	padding-top: 16px;
@@ -448,8 +458,8 @@ ul li{
     font-size: 14px;
     line-height: 76px;
     padding-top: 4px;
-    margin-left: 15px;
     position: relative;
+    margin-right: 15px;
 }
 .phone_list img{
 	vertical-align: middle;
@@ -491,4 +501,41 @@ ul li{
 	line-height: 16px;
     font-size: 14px;
     color: #666;
+}
+.fr{
+	display: flex;
+	align-items: center;
+	margin-left: 200px;
+}
+.fr_buyId{
+	display: inline-block;
+	width:112px ;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	border:1px solid red;
+	color: red;
+	margin: 0 5px;
+}
+#fr_buy_one{
+	color: white;
+	background: red;
+}
+/*图片详情*/
+.imgs{
+	width: 980px;
+	margin: 0 auto;
+}
+.imgs_introduce{
+	width: 834px;
+	overflow: hidden;
+	background: white;
+	text-align: center;
+}
+.imgs_introduce .imgs_box{
+	display: inline-block;
+}
+.imgs_box p img{
+	float: left;
 }
