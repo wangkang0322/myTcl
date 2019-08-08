@@ -133,7 +133,7 @@ function getGoods(str){
 	}
 	$(".ulImg")[0].innerHTML = str1;
 
-var str2 = ""
+var str2 = "";
 for(var i=6;i<12;i++){
 		str2+= `
 		<li class="air_img">
@@ -147,7 +147,7 @@ for(var i=6;i<12;i++){
 	}
 	$(".ulImg")[1].innerHTML = str2;
 	
-	var str3 = ""
+	var str3 = "";
 	for(var i=12;i<18;i++){
 			str3+= `
 			<li class="air_img">
@@ -162,9 +162,46 @@ for(var i=6;i<12;i++){
 		$(".ulImg")[2].innerHTML = str3;
 		
 		
+		var str4 = "";
+	for(var i=18;i<24;i++){
+			str4+= `
+			<li class="air_img">
+				<a href="#">
+					<img src=${arrList[i].goodsImg}>
+					<p class="title">${arrList[i].goodsName}</p>
+					<p class="dice">${arrList[i].goodsDesc}</p>
+					<p class="price">${arrList[i].goodsPrice}.00元</p>
+				</a>
+			</li>`
+		}
+		$(".ulImg")[3].innerHTML = str4;
 		
 		
+	var str5 = "";
+	for(var i=24;i<30;i++){
+			str5+= `
+			<li class="air_img">
+				<a href="#">
+					<img src=${arrList[i].goodsImg}>
+					<p class="title">${arrList[i].goodsName}</p>
+					<p class="dice">${arrList[i].goodsDesc}</p>
+					<p class="price">${arrList[i].goodsPrice}.00元</p>
+				</a>
+			</li>`
+		}
+		$(".ulImg")[4].innerHTML = str5;
 		
-		
-		
+	var str6 = "";
+	for(var i=30;i<36;i++){
+			str6+= `
+			<li class="air_img">
+				<a href="#">
+					<img src=${arrList[i].goodsImg}>
+					<p class="title">${arrList[i].goodsName}</p>
+					<p class="dice">${arrList[i].goodsDesc}</p>
+					<p class="price">${arrList[i].goodsPrice}.00元</p>
+				</a>
+			</li>`
+		}
+		$(".ulImg")[5].innerHTML = str6;
 }

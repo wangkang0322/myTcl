@@ -80,6 +80,15 @@ a{
 	top: 107px;
 	left: 44px;
 }
+#exis{
+	color: red;
+	font-size: 12px;
+	display: none;
+	position: absolute;
+	top: 107px;
+	left: 44px;
+}
+
 #imgCode{
 	background: url(../img/e1.png) no-repeat 13px center;
 	text-indent: 50px;

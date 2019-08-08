@@ -86,24 +86,23 @@ $("#pass_two").focus(function(){
 
 
 //ajax请求发送
-  A("#sub").onclick=function(){
+  A("#reg_btn").onclick=function(){
 		//1.创建对象
 		let xhr=new XMLHttpRequest();
 		//2.设置请求参数
-		xhr.open('post','../php/user.php',true);
+		xhr.open('post','user.php',true);
 
 		xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); 
-		let sendstr=`phone=A{A("#phone").value}&pass=A{A("#pass").value}`;
+		let sendstr=`phone=${A("#phone").value}&pass=${A("#pass").value}`;
 		
 			//3.设置回调函数
 		xhr.onreadystatechange=function(){
 			if(xhr.status==200 && xhr.readyState==4){
 				if(xhr.responseText==0){
-					A("#phone").style.borderColor = "red";
-				  A('#phone_list').innerHTML = "该手机号已被注册！";
-				 }else{
-					A("#login_reg").style.display = "none";
-					A("#J_second").style.display = "block";
+				  A('#exis').style.display = "block";
+				}else{
+					A(".login_reg")[0].style.display = "none";
+					A(".J_second")[0].style.display = "block";
 				}
 			}
 		}
