@@ -1,3 +1,12 @@
+function A(str){
+		if(str.charAt(0)=="#"){
+			return document.getElementById(str.substring(1));
+		}else if(str.charAt(0)=="."){
+			return document.getElementsByClassName(str.substring(1));
+		}else{
+			return document.getElementsByTagName(str);
+		}
+	}
 //获取验证码
 $("#img_rand").click(function(){
 	var str="";
@@ -71,3 +80,32 @@ $("#pass_two").focus(function(){
 
 
 //手机号注册跳转
+
+
+
+
+
+//ajax请求发送
+  A("#sub").onclick=function(){
+		//1.创建对象
+		let xhr=new XMLHttpRequest();
+		//2.设置请求参数
+		xhr.open('post','../php/user.php',true);
+
+		xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); 
+		let sendstr=`phone=A{A("#phone").value}&pass=A{A("#pass").value}`;
+		
+			//3.设置回调函数
+		xhr.onreadystatechange=function(){
+			if(xhr.status==200 && xhr.readyState==4){
+				if(xhr.responseText==0){
+					A("#phone").style.borderColor = "red";
+				  A('#phone_list').innerHTML = "该手机号已被注册！";
+				 }else{
+					A("#login_reg").style.display = "none";
+					A("#J_second").style.display = "block";
+				}
+			}
+		}
+		 xhr.send(sendstr);
+ }

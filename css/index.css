@@ -234,14 +234,26 @@ li{
 	font-size: 14px;
 	line-height: 14px;
 	margin-top: 15px;
+	
+}
+.ulImg a{
+	position: relative;
 }
 .ulImg .price{
 	color: #ff2524;
 	font-size: 14px;
 	line-height: 14px;
 	margin-top:28px ;
+	
 }
-
+.ulImg .priceList{
+	color: #ff2524;
+	font-size: 14px;
+	line-height: 14px;
+	position: absolute;
+	right: -51px;
+	top: -14px;
+}
 /*新闻*/
 .news{
 	width: 100%;

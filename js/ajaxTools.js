@@ -108,3 +108,63 @@ function ajax190502(obj){
 
 	ajax1905(ajaxObj.url,ajaxObj.method,ajaxObj.params,ajaxObj.func,ajaxObj.isAsync);	
 }
+
+ajax190502({
+		"url":"getGoodsList.php",
+		"method":"get",
+		"func":getGoods,
+		"isAsync":true
+})
+
+function getGoods(str){
+	let arrList = JSON.parse(str);
+	
+	let str1 = "";
+	for(var i=0;i<6;i++){
+		str1+= `
+		<li class="air_img">
+			<a href="#">
+				<img src=${arrList[i].goodsImg}>
+				<p class="title">${arrList[i].goodsName}</p>
+				<p class="dice">${arrList[i].goodsDesc}</p>
+				<p class="price">${arrList[i].goodsPrice}.00元</p>
+			</a>
+		</li>`
+	}
+	$(".ulImg")[0].innerHTML = str1;
+
+var str2 = ""
+for(var i=6;i<12;i++){
+		str2+= `
+		<li class="air_img">
+			<a href="#">
+				<img src=${arrList[i].goodsImg}>
+				<p class="title">${arrList[i].goodsName}</p>
+				<p class="dice">${arrList[i].goodsDesc}</p>
+				<p class="price">${arrList[i].goodsPrice}.00元</p>
+			</a>
+		</li>`
+	}
+	$(".ulImg")[1].innerHTML = str2;
+	
+	var str3 = ""
+	for(var i=12;i<18;i++){
+			str3+= `
+			<li class="air_img">
+				<a href="#">
+					<img src=${arrList[i].goodsImg}>
+					<p class="title">${arrList[i].goodsName}</p>
+					<p class="dice">${arrList[i].goodsDesc}</p>
+					<p class="price">${arrList[i].goodsPrice}.00元</p>
+				</a>
+			</li>`
+		}
+		$(".ulImg")[2].innerHTML = str3;
+		
+		
+		
+		
+		
+		
+		
+}

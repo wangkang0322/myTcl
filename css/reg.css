@@ -49,6 +49,7 @@ a{
 	margin-right: 100px;
 	margin-top: 40px;
 	/*display: none;*/
+	position: relative;
 }
 .login_text{
 	font-size:18px ;
@@ -56,9 +57,6 @@ a{
 	color:#333 ;
 	line-height: 18px;
 	margin-bottom: 26px;
-}
-.forms{
-	position: relative;
 }
 .reg_pr input:enabled{
 	width:280px ;
@@ -79,8 +77,8 @@ a{
 	font-size: 12px;
 	display: none;
 	position: absolute;
-	top: 43px;
-	left: 6px;
+	top: 107px;
+	left: 44px;
 }
 #imgCode{
 	background: url(../img/e1.png) no-repeat 13px center;
@@ -89,8 +87,8 @@ a{
 }
 #img_rand{
 	position: absolute;
-	right: 0;
-	top: 63px;
+	right: 37px;
+	top: 127px;
 	width: 85px;
 	height: 40px;
 	line-height: 40px;
@@ -102,8 +100,8 @@ a{
 	font-size: 12px;
 	display: none;
 	position: absolute;
-	top: 106px;
-	left: 6px;
+	top: 169px;
+	left: 44px;
 }
 #phoneCode{
 	background: url(../img/e3.png) no-repeat 13px center;
@@ -114,8 +112,8 @@ a{
 	font-size:14px ;
 	color: #ff0000;
 	position: absolute;
-	right: 0;
-	top: 125px;
+	right: 40px;
+	top: 189px;
 	width: 85px;
 	height: 40px;
 	line-height: 40px;
@@ -167,7 +165,7 @@ a{
 	padding: 20px 40px 20px;
 	margin-right: 100px;
 	margin-top: 40px;
-	/*display: none;*/
+	display: none;
 	position: relative;
 }
 .second_text{
