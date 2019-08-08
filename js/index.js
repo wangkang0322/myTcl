@@ -286,6 +286,18 @@ class Banner{
 
 
 //锚点链接导航栏
+	var liDom = $(".uls").children()
+	for(var i=0;i<liDom.length;i++){
+		$("liDom a").mouseenter(function(){
+			$(this).parents("banner").siblings().find(".banner_meau_box").css("display","block");
+//			$(this).parents(".mesOne").siblings().find(".mesTwo").css("display","none");
+	})
+//		$(".mesTwo").mouseleave(function(){
+//			$(this).css("display","none");
+//	});
+		
+}
+	
 	
 	A("#shopping").onmouseover = function(event){
 		let evt = event||window.event;

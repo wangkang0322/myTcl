@@ -68,15 +68,24 @@ a{
 	margin-bottom: 20px;
 	font-size:14px ;
 	color: #757575;
-	
 }
+
 #phone{
 	background: url(../img/e2.png) no-repeat 13px center;
 	text-indent: 50px;
 }
+#phone_list{
+	color: red;
+	font-size: 12px;
+	display: none;
+	position: absolute;
+	top: 43px;
+	left: 6px;
+}
 #imgCode{
 	background: url(../img/e1.png) no-repeat 13px center;
 	text-indent: 50px;
+	position: relative;
 }
 #img_rand{
 	position: absolute;
@@ -87,6 +96,14 @@ a{
 	line-height: 40px;
 	text-align: center;
 	border-left: 1px solid #cdd1d4;
+}
+#ran{
+	color: red;
+	font-size: 12px;
+	display: none;
+	position: absolute;
+	top: 106px;
+	left: 6px;
 }
 #phoneCode{
 	background: url(../img/e3.png) no-repeat 13px center;
@@ -125,6 +142,7 @@ a{
 	color: white;
 	background: #ff0000;
 	border:0;
+	cursor: pointer;
 }
 .last_text{
 	margin-top: 14px;
@@ -149,7 +167,8 @@ a{
 	padding: 20px 40px 20px;
 	margin-right: 100px;
 	margin-top: 40px;
-	display: none;
+	/*display: none;*/
+	position: relative;
 }
 .second_text{
 	font-size:18px ;
@@ -179,6 +198,22 @@ a{
 	background: url(../img/e4.png) no-repeat 13px center;
 	text-indent: 50px;
 }
+#pass_list{
+	color: red;
+	font-size: 12px;
+	display: none;
+	position: absolute;
+	top: 155px;
+	left: 50px;
+}
+#pass_two{
+	color: red;
+	font-size: 12px;
+	display: none;
+	position: absolute;
+	bottom: 188px;
+	left: 50px;
+}
 .gtext{
 	color: #999;
 	font-size:14px ;
@@ -194,6 +229,7 @@ a{
     text-align: center;
     background: red;
     font-size: 16px;
+    cursor: pointer;
 }
 
 /*注册成功跳转*/
